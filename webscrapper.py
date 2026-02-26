@@ -19,7 +19,7 @@ try:
         else:
             print("Top News Headlines:\n")
             count = 1
-            for headline in headlines[:10]:
+            for headline in headlines[:20]:
                 text = headline.get_text(strip=true)
                 if text:
                     print(f"{count}. {text}")
